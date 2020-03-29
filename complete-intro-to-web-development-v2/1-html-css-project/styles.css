@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+}
+
+.site-title {
+  font-family: 'Pinyon Script', cursive;
+  font-size: 60px;
+  font-weight: normal;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+.site-heading {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 26px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  line-height: 1.2;
+}
+
+.first-container {
+  display: flex;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.second-container {
+  display: flex;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.content {
+  border: 1px solid black;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.first-content-quarter {
+  /* Inherits from .content */
+  width: 25%;
+}
+
+.first-content-half {
+  /* Inherits from .content */
+  width: 50%;
+  border-left-width: 0px;
+  border-right-width: 0px;
+}
+
+.second-content-quarter {
+  /* Inherits from .content */
+  width: 25%;
+  border-top-width: 0px;
+}
+
+.second-content-three-quarters {
+  /* Inherits from .content */
+  width: 75%;
+  border-top-width: 0px;
+  border-left-width: 0px;
+}
+
+.inner-container {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  padding: 0;
+}
+
+.inner-header {
+  padding-left: 30px;
+  font-family: "Futura";
+  font-weight: bold;
+  font-size: 24px;
+  color: gray;
+  text-decoration: none;
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.inner-header:hover {
+  text-decoration: underline;
+}
+
+.inner-header-politics {
+  /* Inherits from .inner-header */
+  background-color: #FFEAA7;
+}
+
+.inner-header-tech {
+  /* Inherits from .inner-header */
+  background-color: #81ECEC;
+}
+
+.inner-header-local {
+  /* Inherits from .inner-header */
+  background-color: #55EFC4;
+}
+
+.inner-header-opinion {
+  /* Inherits from .inner-header */
+  background-color: #74B9FF;
+}
+
+.inner-header-sports {
+  /* Inherits from .inner-header */
+  background-color: #A29BFE;
+}
+
+.content-image {
+  width: 100%
+}

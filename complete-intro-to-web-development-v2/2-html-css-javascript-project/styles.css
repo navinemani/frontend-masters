@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.calculator {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  background-color: black;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  height: 60px;
+  width: 100%;
+}
+
+.answer-screen {
+  /* Inherits from .row */
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: white;
+  background-color: black;
+  height: 80px;
+}
+
+.answer {
+  padding-right: 10px;
+  font-size: 30px;
+}
+
+.calc-button {
+  width: 24.75%;
+  font-size: 24px;
+  margin: 0.5px 0px;
+  outline: none;
+  border-style: none;
+  cursor: pointer;
+}
+
+.calc-button:nth-child(n) {
+  background-color: #D8D9DB;
+}
+
+.calc-button:hover {
+  background-color: #EBEBEB;
+}
+
+.calc-button:active {
+  background-color: #BBBCBE;
+}
+
+.calc-button:last-child {
+  background-color: #DF974C;
+}
+
+.calc-button:last-child:hover {
+  background-color: #DFB07E;
+}
+
+.calc-button:last-child:active {
+  background-color: #DD8D37;
+}
+
+.double-size {
+  width: 50%;
+}
+
+.triple-size {
+  width: 75%;
+}
+
+.first-row {
+  /* Inherits from .row */
+  background-color: black;
+}
+
+.second-row {
+  /* Inherits from .row */
+  background-color: black;
+}
+
+.third-row {
+  /* Inherits from .row */
+  background-color: black;
+}
+
+.fourth-row {
+  /* Inherits from .row */
+  background-color: black;
+}
+
+.fifth-row {
+  /* Inherits from .row */
+  background-color: black;
+}
