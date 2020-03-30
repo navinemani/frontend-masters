@@ -41,7 +41,6 @@ body {
   width: 24.75%;
   font-size: 24px;
   margin: 0.5px 0px;
-  outline: none;
   border-style: none;
   cursor: pointer;
 }
@@ -60,6 +59,7 @@ body {
 
 .calc-button:last-child {
   background-color: #DF974C;
+  color: white;
 }
 
 .calc-button:last-child:hover {
